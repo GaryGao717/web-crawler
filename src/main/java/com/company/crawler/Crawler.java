@@ -201,7 +201,7 @@ public class Crawler {
 			return false;
 		}
 
-		List<String> filetypeList = Arrays.asList("pdf", "jpg", "gif", "js", "css", "png");
+		List<String> filetypeList = Arrays.asList("pdf", "jpg", "gif", "js", "css", "png", "svg");
 
 		int i = uri.getPath().lastIndexOf('.');
 		if (i > 0) {
